@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Leonardo Vilella, desenvolvedor Front-end." />
+    <title>Leonardo Vilella — Front-end Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand-mark">LV</span>
+        <span class="brand-name">leonardo<span>.dev</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#stack">Stack</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+          <span class="theme-icon">◐</span>
+          <span class="theme-label">Tema</span>
+        </button>
+        <a class="header-cta" href="#contato">Vamos conversar <span>↗</span></a>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> disponível para novas oportunidades</p>
+          <h1>Interfaces com<br /><em>intenção.</em> Código<br />com presença.</h1>
+          <p class="hero-intro">Sou Leonardo Vilella, desenvolvedor Front-end. Transformo ideias em experiências digitais claras, rápidas e gostosas de usar.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos <span>↓</span></a>
+            <a class="text-link" href="https://github.com/Leovilelladev" target="_blank" rel="noreferrer">abrir GitHub <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Resumo visual do trabalho">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-topbar"><span></span><span></span><span></span><small>leo.config.ts</small></div>
+            <pre><code><i>const</i> developer = {
+  name: <b>"Leonardo Vilella"</b>,
+  focus: <b>"front-end"</b>,
+  tools: [
+    <b>"React"</b>, <b>"TypeScript"</b>,
+    <b>"Vue"</b>, <b>"Supabase"</b>
+  ],
+  mindset: <b>"keep shipping"</b>
+};</code></pre>
+            <div class="code-footer"><span class="tiny-pulse"></span> building useful things</div>
+          </div>
+          <div class="floating-note note-top"><span>01</span> design → code</div>
+          <div class="floating-note note-bottom"><span>02</span> code → impact</div>
+          <div class="hero-stamp">LV<br /><small>2026</small></div>
+        </div>
+        <div class="scroll-hint"><span class="scroll-line"></span> role para explorar</div>
+      </section>
+
+      <section class="marquee-band" aria-label="Tecnologias principais">
+        <div class="marquee-track">
+          <span>REACT</span><b>✳</b><span>TYPESCRIPT</span><b>✳</b><span>VUE</span><b>✳</b><span>SUPABASE</span><b>✳</b><span>UI COM INTENÇÃO</span><b>✳</b>
+          <span>REACT</span><b>✳</b><span>TYPESCRIPT</span><b>✳</b><span>VUE</span><b>✳</b><span>SUPABASE</span><b>✳</b><span>UI COM INTENÇÃO</span><b>✳</b>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="projetos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">seleção de trabalho <span>✳</span></p>
+            <h2>Projetos que<br /><em>contam história.</em></h2>
+          </div>
+          <p class="heading-note">Uma curadoria do que melhor mostra meu jeito de pensar produto, interface e código.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar projetos">
+          <button class="filter active" type="button" data-filter="all">todos <span>06</span></button>
+          <button class="filter" type="button" data-filter="react">react <span>03</span></button>
+          <button class="filter" type="button" data-filter="fullstack">full-stack <span>02</span></button>
+          <button class="filter" type="button" data-filter="visual">visual <span>02</span></button>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card project-featured card-lime" data-stack="react fullstack" href="https://github.com/Leovilelladev/efood" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>01 / case study</span><span>React · Redux</span></div>
+            <div class="project-content">
+              <p class="project-kicker">delivery experience</p>
+              <h3>efood</h3>
+              <p>Uma experiência completa de descoberta, cardápio e checkout — com estado, rotas e dados vindos de API.</p>
+              <span class="project-link">ver projeto <span>↗</span></span>
+            </div>
+            <div class="mini-app food-app" aria-hidden="true">
+              <div class="food-top"><span>efood</span><span class="food-avatar"></span></div>
+              <div class="food-hero"><span>o que você<br /><b>quer comer hoje?</b></span><i>⌁</i></div>
+              <div class="food-cards"><span></span><span></span><span></span></div>
+              <div class="food-cart">2 itens <b>R$ 48,90</b></div>
+            </div>
+            <div class="card-arrow">↗</div>
+          </a>
+
+          <a class="project-card card-purple" data-stack="react fullstack" href="https://github.com/Leovilelladev/Allies" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>02 / experimental</span><span>React · 3D · Supabase</span></div>
+            <div class="project-content">
+              <p class="project-kicker">interactive world</p>
+              <h3>Allies</h3>
+              <p>Uma interface experimental que mistura produto digital, dados e uma camada visual imersiva.</p>
+              <span class="project-link">ver projeto <span>↗</span></span>
+            </div>
+            <div class="mini-app allies-app" aria-hidden="true"><span class="allies-orb"></span><span class="allies-grid"></span><span class="allies-caption">PLAY / EXPLORE / BUILD</span></div>
+            <div class="card-arrow">↗</div>
+          </a>
+
+          <a class="project-card card-blue" data-stack="fullstack" href="https://github.com/Leovilelladev/project_colab" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>03 / product</span><span>JavaScript · Supabase</span></div>
+            <div class="project-content">
+              <p class="project-kicker">process control</p>
+              <h3>Project Colab</h3>
+              <p>Controle de processos com autenticação, CRUD, filtros, dashboard e exportação de dados.</p>
+              <span class="project-link">ver projeto <span>↗</span></span>
+            </div>
+            <div class="mini-app dashboard-app" aria-hidden="true"><span class="dash-title">processos</span><span class="dash-number">128</span><span class="dash-bars"><i></i><i></i><i></i><i></i><i></i></span><span class="dash-line"></span></div>
+            <div class="card-arrow">↗</div>
+          </a>
+
+          <a class="project-card card-orange" data-stack="react" href="https://github.com/Leovilelladev/ebac_sports" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>04 / commerce</span><span>React · TypeScript</span></div>
+            <div class="project-content compact-content"><p class="project-kicker">sport store</p><h3>EBAC Sports</h3><span class="project-link">ver projeto <span>↗</span></span></div>
+            <div class="mini-app shoe-app" aria-hidden="true"><span class="shoe-shape">◒</span><span class="shoe-label">RUN<br /><b>FASTER</b></span></div>
+            <div class="card-arrow">↗</div>
+          </a>
+
+          <a class="project-card card-cream" data-stack="visual" href="https://github.com/Leovilelladev/projetoAnime" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>05 / landing page</span><span>HTML · CSS · JS</span></div>
+            <div class="project-content compact-content"><p class="project-kicker">visual storytelling</p><h3>Vinland Saga</h3><span class="project-link">ver projeto <span>↗</span></span></div>
+            <div class="mini-app anime-app" aria-hidden="true"><span class="anime-sun"></span><span class="anime-title">VINLAND<br /><b>SAGA</b></span><span class="anime-wave"></span></div>
+            <div class="card-arrow">↗</div>
+          </a>
+
+          <a class="project-card card-pink" data-stack="visual" href="https://github.com/Leovilelladev/Caf-Encanto" target="_blank" rel="noreferrer">
+            <div class="project-meta"><span>06 / brand page</span><span>HTML · CSS</span></div>
+            <div class="project-content compact-content"><p class="project-kicker">warm digital spaces</p><h3>Café Encanto</h3><span class="project-link">ver projeto <span>↗</span></span></div>
+            <div class="mini-app coffee-app" aria-hidden="true"><span class="coffee-cup">☕</span><span class="coffee-label">pausa<br /><b>com intenção</b></span></div>
+            <div class="card-arrow">↗</div>
+          </a>
+        </div>
+        <p class="empty-state" hidden>Nenhum projeto nesta categoria ainda.</p>
+      </section>
+
+      <section class="stack section-shell" id="stack">
+        <div class="stack-intro"><p class="eyebrow">ferramentas do ofício <span>✳</span></p><h2>Meu kit<br /><em>de construção.</em></h2></div>
+        <div class="stack-list">
+          <div class="stack-row"><span class="stack-index">01</span><strong>Interfaces</strong><span>React · Vue · HTML · CSS</span><b>↗</b></div>
+          <div class="stack-row"><span class="stack-index">02</span><strong>Estado & dados</strong><span>Redux Toolkit · APIs · Supabase</span><b>↗</b></div>
+          <div class="stack-row"><span class="stack-index">03</span><strong>Qualidade</strong><span>TypeScript · Cypress · testes</span><b>↗</b></div>
+          <div class="stack-row"><span class="stack-index">04</span><strong>Entrega</strong><span>Git · Vite · Vercel · deploy</span><b>↗</b></div>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="sobre">
+        <div class="about-mark">LV<span>✳</span></div>
+        <div class="about-copy"><p class="eyebrow">um pouco sobre mim</p><h2>Curioso por natureza.<br /><em>Prático por escolha.</em></h2><p>Gosto de entender o problema antes de abrir o editor. Quando o código começa, meu objetivo é o mesmo: criar algo que faça sentido para quem está do outro lado da tela.</p><a class="text-link" href="https://github.com/Leovilelladev" target="_blank" rel="noreferrer">conhecer meu GitHub <span>↗</span></a></div>
+      </section>
+
+      <section class="contact section-shell" id="contato">
+        <div><p class="eyebrow">próximo capítulo <span>✳</span></p><h2>Vamos criar algo<br /><em>que mereça existir?</em></h2></div>
+        <div class="contact-side"><p>Este é um primeiro rascunho visual. A próxima versão pode ganhar seus textos, foto, links profissionais e os detalhes de cada projeto.</p><a class="button button-light" href="https://github.com/Leovilelladev" target="_blank" rel="noreferrer">falar pelo GitHub <span>↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><span>© 2026 Leonardo Vilella</span><span>feito com curiosidade + código</span><a href="#inicio">voltar ao topo ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
